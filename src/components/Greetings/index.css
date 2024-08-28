@@ -1,0 +1,52 @@
+.style-greetings-button {
+  margin: 20px;
+  height: 50px;
+  width: 100px;
+  border-radius: 30px;
+  border: solid 1px #db1c48;
+  color: #db1c48;
+  font-size: 20px;
+}
+.style-button {
+  margin: 20px;
+  height: 50px;
+  width: 100px;
+  border-radius: 30px;
+  border: solid 1px #db1c48;
+  color: #ffffff;
+  background-color: #db1c48;
+  font-size: 20px;
+}
+@media screen and (max-width: 480px) {
+  .style-greetings-button {
+    margin: 10px;
+    height: 30px;
+    width: 80px;
+    border-radius: 30px;
+    font-size: 15px;
+  }
+  .style-button {
+    margin: 10px;
+    height: 30px;
+    width: 80px;
+    border-radius: 30px;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 364px) {
+  .style-greetings-button {
+    margin: 8px;
+    height: 20px;
+    width: 60px;
+    border-radius: 30px;
+    font-size: 12px;
+  }
+  .style-button {
+    margin: 8px;
+    height: 20px;
+    width: 60px;
+    border-radius: 30px;
+    font-size: 12px;
+  }
+}
